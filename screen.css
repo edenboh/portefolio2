@@ -1,0 +1,35 @@
+/*.photo{
+    width: 700px;
+    height: 700px;
+}*/
+.auditA{
+    width: 1000px;
+    height:700px;
+}
+.auditB{
+    width: 900px;
+    height:300px;
+}
+.workflow{
+    width: 900px;
+    height:300px;
+}
+.cabinet{
+    width: 700px;
+    height:500px;
+}
+
+.Sql{
+    width: 1500px;
+    height: 700px;
+}
+.graph{
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+.heritage{
+    width: 700px;
+    height:300px;
+}
