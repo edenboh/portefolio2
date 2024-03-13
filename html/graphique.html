@@ -2,19 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Graphique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphiques</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="../screen.css">
-
+    <style>
+        body {
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .graph {
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .github-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 16px;
+            color: #007bff;
+        }
+    </style>
 </head>
 <body>
-<h3>graphique</h3>
-<img src="../screen/bddGraph.png" class="img-fluid graph ">
-<img src="../screen/eco1Graph.png" class="img-fluid cabinet">
-<img src="../screen/exo2graph.png" class="img-fluid cabinet">
-<img src="../screen/exo3graph.png" class="img-fluid cabinet">
-<a style="margin-left: 60px" href="https://github.com/edenboh/Graphique-bourse">Voir sur GitHub</a>
-
+<div class="container">
+    <h3>Graphiques</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../screen/bddGraph.png" class="img-fluid graph" alt="Graphique de la base de données">
+        </div>
+        <div class="col-md-6">
+            <img src="../screen/eco1Graph.png" class="img-fluid graph" alt="Graphique économique 1">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="../screen/exo2graph.png" class="img-fluid graph" alt="Graphique d'exercice 2">
+        </div>
+        <div class="col-md-6">
+            <img src="../screen/exo3graph.png" class="img-fluid graph" alt="Graphique d'exercice 3">
+        </div>
+    </div>
+    <a href="https://github.com/edenboh/Graphique-bourse" class="github-link">Voir sur GitHub</a>
+</div>
 </body>
 </html>
